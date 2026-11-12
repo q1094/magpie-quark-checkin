@@ -1,5 +1,5 @@
 {
-  "name": "quark-checkin",
+  "name": "magpie-quark-checkin",
   "version": "0.1.0",
   "description": "Quark drive (夸克网盘) in magpie / OpenCode: one captured App URL reports space usage and does the daily space check-in",
   "type": "module",
@@ -14,7 +14,7 @@
   "engines": {
     "node": ">=20"
   },
-  "keywords": ["magpie", "magpie-plugin", "quark", "quark-checkin", "夸克网盘", "签到"],
+  "keywords": ["magpie", "magpie-plugin", "quark", "quark-checkin", "magpie-quark-checkin", "夸克网盘", "签到"],
   "license": "MIT",
   "magpie": {
     "name": "夸克网盘 v0.1.0",
