@@ -6,10 +6,12 @@
 > 用 magpie 纯粹是为了两件事：**在面板/`magpie quota` 里看空间占用**，以及**让 magpie 的每日调度去跑签到**（不用自己养 cron、不用 GitHub Actions）。包装成插件只是借用它的账号存储与定时器。
 
 ```
-magpie plugin add git+https://github.com/q1094/quark-checkin.git
+magpie plugin add github:q1094/quark-checkin
 magpie plugin login quark     # 选第一种：粘一条抓包 URL（不用装浏览器、不用手机抓第二个接口）
 magpie quota                  # quark · 普通用户 · 空间 79.7% ↻…
 ```
+
+开发时也可以直接加载本地文件夹（免安装、改完重载即生效）：`magpie plugin add ./quark-checkin`。
 
 ## 一条 URL 能拿到什么（2026-11-12 实测）
 
