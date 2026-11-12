@@ -1,0 +1,26 @@
+{
+  "name": "quark-checkin",
+  "version": "0.1.0",
+  "description": "Quark drive (夸克网盘) in magpie / OpenCode: one captured App URL reports space usage and does the daily space check-in",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": ["index.mjs", "web.mjs", "README.md"],
+  "scripts": {
+    "test": "node --test test/offline.test.mjs"
+  },
+  "optionalDependencies": {
+    "playwright-core": "^1.65.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["magpie", "magpie-plugin", "quark", "quark-checkin", "夸克网盘", "签到"],
+  "license": "MIT",
+  "magpie": {
+    "name": "夸克网盘 v0.1.0",
+    "summary": {
+      "zh": "夸克网盘接进 magpie：粘一条 App 抓包 URL（kps/sign/vcode）就能读空间占用、连签进度并每日签到领空间；不想抓包也可用网页登录只看占用。",
+      "en": "Quark drive in magpie: one captured App URL (kps/sign/vcode) reports space usage and does the daily space check-in; web sign-in is available for usage only."
+    }
+  }
+}
